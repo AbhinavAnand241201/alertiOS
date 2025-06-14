@@ -69,18 +69,18 @@ struct SplashScreenView: View {
 }
 
 // This is the final destination after onboarding is complete.
-struct HomeView: View {
-    var body: some View {
-        ZStack {
-            Color.appBackground.edgesIgnoringSafeArea(.all)
-            VStack {
-                 Text("Home Screen")
-                    .font(.custom("SFProDisplay-Bold", size: 34))
-                    .foregroundColor(Color.appTextPrimary)
-            }
-        }
-    }
-}
+//struct HomeView: View {
+//    var body: some View {
+//        ZStack {
+//            Color.appBackground.edgesIgnoringSafeArea(.all)
+//            VStack {
+//                 Text("Home Screen")
+//                    .font(.custom("SFProDisplay-Bold", size: 34))
+//                    .foregroundColor(Color.appTextPrimary)
+//            }
+//        }
+//    }
+//}
 
 
 // MARK: - Reusable Color Extensions
